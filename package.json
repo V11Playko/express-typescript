@@ -1,0 +1,24 @@
+{
+  "name": "express-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V11Playko/express-typescript.git"
+  },
+  "keywords": [],
+  "author": "Heinner Vega",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/V11Playko/express-typescript/issues"
+  },
+  "homepage": "https://github.com/V11Playko/express-typescript#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
