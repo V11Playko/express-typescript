@@ -1,6 +1,6 @@
 import express from 'express'
 
-import diaryRoutes from './routes/diaries'
+import diaryRoutes from './routes/diaryRoutes'
 
 const app = express();
 app.use(express.json())
