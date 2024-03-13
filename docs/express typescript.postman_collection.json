@@ -1,0 +1,80 @@
+{
+	"info": {
+		"_postman_id": "53bfcd51-ae03-4e5f-82cf-b8b862efe09c",
+		"name": "express typescript",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17721570"
+	},
+	"item": [
+		{
+			"name": "By Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/diaries/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"diaries",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "All Diaries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/diaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"diaries"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Diary",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\": \"2011-01-11\",\r\n    \"weather\": \"sunny\",\r\n    \"visibility\": \"great\",\r\n    \"comment\": \"I am Goku\"\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/diaries",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"diaries"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
