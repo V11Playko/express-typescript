@@ -1,6 +1,6 @@
 # Express-TypeScript
 
-Este proyecto es una pequeña API RESTful desarrollada en TypeScript con Express que permite gestionar entradas de diario. Utiliza como base de datos un json ya que la utilice para practicar typescript, en nada hare un proyecto mucho más completo  :)
+Este proyecto es una pequeña API RESTful desarrollada en TypeScript con Express que permite gestionar entradas de diario. Utiliza como base de datos un JSON, ya que lo utilicé para practicar TypeScript. Luego hice un proyecto más completo, que es  [este.](https://github.com/V11Playko/API-REST-Typescript)  :)
 
 ## Configuración ##
 
